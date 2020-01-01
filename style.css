@@ -1,0 +1,52 @@
+body{
+	margin:0px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.content{
+	float:right; 
+	 font-size:22px;
+	 margin-right:5%;
+	 width:45%;
+}
+	.subcontent{
+		font-size:16px;
+	}
+	
+.titlebg{
+	background-size:200% 100%;
+	background-position:50% 45%;
+	 height:1000px;
+}
+
+.form{
+	width:30%;
+}
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  	
+	.titlebg{
+		background-size:500% 100%;
+	background-position:51% 45%;
+	 height:1200px;
+	}
+	
+	.content{
+		float:none;
+		display:block;
+		font-size:15px;
+		width:100%;
+		margin-bottom:100px;
+	}
+	.subcontent{
+		font-size:12px;
+	}
+	.form{
+		width:45%;
+	}
+  
+  
+
+}
